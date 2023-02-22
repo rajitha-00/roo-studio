@@ -43,4 +43,17 @@
 .navLink a {
   text-decoration: none;
   color: #ff0057 !important;
+}
+
+.menu {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.menu .MuiPaper-root {
+  width: 50%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }/*# sourceMappingURL=Navbar.css.map */

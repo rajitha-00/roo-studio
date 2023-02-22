@@ -34,6 +34,7 @@ function Navbar() {
       >
       <Container maxWidth="xl">
         <Toolbar >
+          {/* PC View */}
           <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }}>
           <Typography
             variant="h3"
@@ -60,91 +61,6 @@ function Navbar() {
           
           </Typography>
           </Box>
-          <Box sx={{ flexGrow: 2, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-             
-              <MenuItem  onClick={handleCloseNavMenu}>
-                <Button
-                onClick={handleCloseNavMenu}
-                sx={{ my: 0, color: 'white', display: 'block' }}
-              >
-                <Link to='/' >Home</Link>
-              </Button>
-             
-              </MenuItem>
-              <MenuItem  onClick={handleCloseNavMenu}>
-                <Button
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 0, color: 'white', display: 'block' }}
-                >
-                  <Link to='/gallery' >Gallery</Link>
-                </Button>
-              </MenuItem>
-              <MenuItem  onClick={handleCloseNavMenu}>
-                <Button
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 0, color: 'white', display: 'block' }}
-                >
-                  <Link to='/products' >Products</Link>
-                </Button>
-              </MenuItem>
-              <MenuItem  onClick={handleCloseNavMenu}>
-                <Button
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 0, color: 'white', display: 'block' }}
-                >
-                  <Link to='/aboutus' >About Us</Link>
-                </Button>
-              </MenuItem>
-              <MenuItem  onClick={handleCloseNavMenu}>
-                <Button
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 0, color: 'white', display: 'block' }}
-                >
-                  <Link to='/contactus' >Contact Us</Link>
-                </Button>
-              </MenuItem>
-            </Menu>
-          </Box>
-          <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
-            <div className="logo2">
-
-              <Link to='/'> 
-                <h2>
-                    <span>R</span>OO
-                    <span>S</span>TUDIO
-                </h2>
-              </Link>
-            </div>
-          </Box>
-         
           <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' } }}>
             <div className="navLink">
               <Button
@@ -186,7 +102,104 @@ function Navbar() {
                     <Link to='/contactus' >Contact US</Link>
                 </Button>
             </div>
-          </Box>     
+          </Box>  
+          {/* mobile view */}
+
+          <Box sx={{ flexGrow: 2, display: { xs: 'flex', md: 'none' } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              className='menu'
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none' },
+              }}
+            >
+                <div className="navLink">
+                    <MenuItem  onClick={handleCloseNavMenu}>   
+                        <Button
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 0, color: 'white', display: 'block' }}
+                        >
+                            <Link to='/' >Home</Link>
+                        </Button>
+                    </MenuItem>
+                </div>
+                <div className="navLink">
+                    <MenuItem  onClick={handleCloseNavMenu}>
+                        <Button
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 0, color: 'white', display: 'block' }}
+                        >
+                            <Link to='/gallery' >Gallery</Link>
+                        </Button>
+                    </MenuItem>
+                </div>
+                <div className="navLink">
+                    <MenuItem  onClick={handleCloseNavMenu}>
+                        <Button
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 0, color: 'white', display: 'block' }}
+                        >
+                            <Link to='/products' >Products</Link>
+                        </Button>
+                    </MenuItem>
+                </div>
+                <div className="navLink">
+                    <MenuItem  onClick={handleCloseNavMenu}>
+                        <Button
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 0, color: 'white', display: 'block' }}
+                        >
+                        <Link to='/aboutus' >About Us</Link>
+                        </Button>
+                    </MenuItem>
+                </div>
+                <div className="navLink">
+                    <MenuItem  onClick={handleCloseNavMenu}>
+                        <Button
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 0, color: 'white', display: 'block' }}
+                        >
+                        <Link to='/contactus' >Contact Us</Link>
+                        </Button>
+                    </MenuItem>
+                </div>  
+            </Menu>
+          </Box>
+          <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
+            <div className="logo2">
+
+              <Link to='/'> 
+                <h2>
+                    <span>R</span>OO
+                    <span>S</span>TUDIO
+                </h2>
+              </Link>
+            </div>
+          </Box>
+         
+             
         </Toolbar>
       </Container>
     </AppBar>
