@@ -139,7 +139,7 @@ function Navbar() {
                     <MenuItem  onClick={handleCloseNavMenu}>  
                     <Link to='/' > 
                         <Button
-                        className='btn-grad'
+                        
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -152,7 +152,7 @@ function Navbar() {
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Link to='/gallery' >
                             <Button 
-                            className='btn-grad'
+                            
                             onClick={handleCloseNavMenu}
                             sx={{ my: 0, color: 'white', display: 'block' }}
                             >
@@ -165,7 +165,7 @@ function Navbar() {
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Link to='/products' >
                             <Button
-                            className='btn-grad'
+                            
                             onClick={handleCloseNavMenu}
                             sx={{ my: 0, color: 'white', display: 'block' }}
                             >
@@ -178,7 +178,7 @@ function Navbar() {
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Link to='/aboutus' >
                             <Button
-                            className='btn-grad'
+                            
                             onClick={handleCloseNavMenu}
                             sx={{ my: 0, color: 'white', display: 'block' }}
                             >
@@ -191,7 +191,7 @@ function Navbar() {
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Link to='/contactus' >
                             <Button
-                            className='btn-grad'
+                            
                             onClick={handleCloseNavMenu}
                             sx={{ my: 0, color: 'white', display: 'block' }}
                             >

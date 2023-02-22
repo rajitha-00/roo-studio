@@ -41,7 +41,8 @@
 .navLink{
     a{
         text-decoration: none;
-    color: #ff0057 !important;
+        color: #fff !important;
+       
     }
 }
 .menu{
@@ -53,32 +54,16 @@
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(10px);
         .navLink{
+            text-align: center !important;
             a{
                 text-decoration: none;
                 color: #ffffff !important;
                 width: 100%;
                 margin: 0px 15px 0px 0px;
+                z-index: 1000;
+                text-align: center !important;
             }
-            .btn-grad {
-                background-image: linear-gradient(to right, #000000 0%, #3d3d3d  51%, #000000 100%);
-               
-                width: 100%;
-                padding: 15px 45px;
-                text-align: center;
-                text-transform: uppercase;
-                transition: 0.5s;
-                background-size: 200% auto;
-                color: white;            
-                // box-shadow: 0 0 20px #eee;
-                border-radius: 0px;
-                display: block;
-              }
-    
-              .btn-grad:hover {
-                background-position: right center; /* change the direction of the change here */
-                color: #fff;
-                text-decoration: none;
-              }
+           
         }
     }
 }

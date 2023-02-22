@@ -42,7 +42,7 @@
 
 .navLink a {
   text-decoration: none;
-  color: #ff0057 !important;
+  color: #fff !important;
 }
 
 .menu {
@@ -57,26 +57,14 @@
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
+.menu .MuiPaper-root .navLink {
+  text-align: center !important;
+}
 .menu .MuiPaper-root .navLink a {
   text-decoration: none;
   color: #ffffff !important;
   width: 100%;
   margin: 0px 15px 0px 0px;
-}
-.menu .MuiPaper-root .navLink .btn-grad {
-  background-image: linear-gradient(to right, #000000 0%, #3d3d3d 51%, #000000 100%);
-  width: 100%;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  border-radius: 0px;
-  display: block;
-}
-.menu .MuiPaper-root .navLink .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+  z-index: 1000;
+  text-align: center !important;
 }/*# sourceMappingURL=Navbar.css.map */
