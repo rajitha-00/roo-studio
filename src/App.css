@@ -83,4 +83,24 @@
 body {
   color: #fff;
   background: linear-gradient(90deg, rgb(27, 18, 29) 0%, rgb(35, 35, 35) 50%, rgb(27, 18, 29) 100%);
+}
+
+.bg {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.path {
+  animation: draw 6s infinite;
+}
+
+@keyframes draw {
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+.heroContainer {
+  height: 40vh;
 }/*# sourceMappingURL=App.css.map */

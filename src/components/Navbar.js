@@ -136,58 +136,68 @@ function Navbar() {
               }}
             >
                 <div className="navLink">
-                    <MenuItem  onClick={handleCloseNavMenu}>   
+                    <MenuItem  onClick={handleCloseNavMenu}>  
+                    <Link to='/' > 
                         <Button
                         className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
-                            <Link to='/' >Home</Link>
+                            Home
                         </Button>
+                    </Link>
                     </MenuItem>
                 </div>
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
-                        <Button 
-                        className='btn-grad'
-                        onClick={handleCloseNavMenu}
-                        sx={{ my: 0, color: 'white', display: 'block' }}
-                        >
-                            <Link to='/gallery' >Gallery</Link>
-                        </Button>
+                        <Link to='/gallery' >
+                            <Button 
+                            className='btn-grad'
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 0, color: 'white', display: 'block' }}
+                            >
+                                Gallery
+                            </Button>
+                        </Link>
                     </MenuItem>
                 </div>
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
-                        <Button
-                        className='btn-grad'
-                        onClick={handleCloseNavMenu}
-                        sx={{ my: 0, color: 'white', display: 'block' }}
-                        >
-                            <Link to='/products' >Products</Link>
-                        </Button>
+                        <Link to='/products' >
+                            <Button
+                            className='btn-grad'
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 0, color: 'white', display: 'block' }}
+                            >
+                            Products
+                            </Button>
+                        </Link>
                     </MenuItem>
                 </div>
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
-                        <Button
-                        className='btn-grad'
-                        onClick={handleCloseNavMenu}
-                        sx={{ my: 0, color: 'white', display: 'block' }}
-                        >
-                        <Link to='/aboutus' >About Us</Link>
-                        </Button>
+                        <Link to='/aboutus' >
+                            <Button
+                            className='btn-grad'
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 0, color: 'white', display: 'block' }}
+                            >
+                            About Us
+                            </Button>
+                        </Link>
                     </MenuItem>
                 </div>
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
-                        <Button
-                        className='btn-grad'
-                        onClick={handleCloseNavMenu}
-                        sx={{ my: 0, color: 'white', display: 'block' }}
-                        >
-                        <Link to='/contactus' >Contact Us</Link>
-                        </Button>
+                        <Link to='/contactus' >
+                            <Button
+                            className='btn-grad'
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 0, color: 'white', display: 'block' }}
+                            >
+                        Contact US
+                            </Button>
+                        </Link>
                     </MenuItem>
                 </div>  
 

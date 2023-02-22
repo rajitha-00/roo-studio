@@ -8,3 +8,21 @@ body {
     background: -webkit-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgb(255, 255, 255) 50%, rgba(27,18,29,1) 100%);
     background: linear-gradient(90deg, rgba(27,18,29,1) 0%, rgb(35, 35, 35) 50%, rgba(27,18,29,1) 100%);
 }
+.bg  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.path {
+animation: draw 6s infinite;
+}
+
+@keyframes draw {
+50% {
+    stroke-dashoffset: 0;
+}
+}
+.heroContainer{
+height: 40vh;
+}
