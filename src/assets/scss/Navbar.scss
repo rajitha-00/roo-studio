@@ -52,5 +52,11 @@
         height: 85%;
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(10px);
+        .navLink{
+            a{
+                text-decoration: none;
+                color: #ffffff !important;
+            }
+        }
     }
 }
