@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
-import '../assets/Navbar.css'
+import '../assets/scss/Navbar.css'
 
 
 function Navbar() {
@@ -34,7 +34,7 @@ function Navbar() {
       >
       <Container maxWidth="xl">
         <Toolbar >
-
+          <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }}>
           <Typography
             variant="h3"
             noWrap
@@ -59,7 +59,7 @@ function Navbar() {
             </Link>
           
           </Typography>
-
+          </Box>
           <Box sx={{ flexGrow: 2, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -133,7 +133,7 @@ function Navbar() {
               </MenuItem>
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 2, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
             <div className="logo2">
 
               <Link to='/'> 
@@ -145,40 +145,48 @@ function Navbar() {
             </div>
           </Box>
          
-          <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' } }}>
+            <div className="navLink">
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 <Link to='/' >Home</Link>
               </Button>
-              <Button
+            </div>
+            <div className="navLink">
+                <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link to='/gallery' >Gallery</Link>
+                    <Link to='/gallery' >Gallery</Link>
               </Button>
-              <Button
+            </div>
+            <div className="navLink">
+                <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                <Link to='/products' >Products</Link>
-              </Button>
-              <Button
+                >
+                    <Link to='/products' >Products</Link>
+                </Button>
+            </div>
+            <div className="navLink">
+                <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                <Link to='/aboutus' >About Us</Link>
-              </Button>
-              <Button
+                >
+                    <Link to='/aboutus' >About Us</Link>
+                </Button>
+            </div>
+            <div className="navLink">
+                <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                <Link to='/contactus' >Contact US</Link>
-              </Button>
-          </Box>
-
-          
+                >
+                    <Link to='/contactus' >Contact US</Link>
+                </Button>
+            </div>
+          </Box>     
         </Toolbar>
       </Container>
     </AppBar>

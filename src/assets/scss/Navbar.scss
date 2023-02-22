@@ -1,0 +1,46 @@
+
+.logo{
+    color: #3b5998 ;
+    height: 5rem;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    display: grid;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(147, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    h2{
+        margin: 0;
+        font-size: 2rem;
+        span{
+            font-size: 3.5rem;
+        }
+    }
+}
+.logo2{
+    color: #d7e4ff ;
+    height: 5rem;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    display: grid;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(147, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    h2{
+        margin: 0;
+        font-size: 2rem;
+        span{
+            font-size: 2.5rem;
+        }
+    }
+}
+.navBg{
+    background: #ffffff21 !important;
+}
+.navLink{
+    a{
+        text-decoration: none;
+    color: #ff0057 !important;
+    }
+}

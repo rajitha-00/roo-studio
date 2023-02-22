@@ -6,11 +6,12 @@ import Products from './views/Products'
 import Gallery from './views/Gallery'
 import AboutUs from './views/AboutUs'
 import ContactUs from './views/ContactUs'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-    
+     <Navbar/>
       <Routes>
         <Route path='/' element = {<Home/>}/>
         <Route path='/products' element = {<Products/>}/>
