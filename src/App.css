@@ -40,6 +40,46 @@
   background: rgba(255, 255, 255, 0.1294117647) !important;
 }
 
+.navLink a {
+  text-decoration: none;
+  color: #ff0057 !important;
+}
+
+.menu {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.menu .MuiPaper-root {
+  width: 50%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.menu .MuiPaper-root .navLink a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.menu .MuiPaper-root .navLink .btn-grad {
+  background-image: linear-gradient(to right, #000000 0%, #3d3d3d 51%, #000000 100%);
+  margin: 10px;
+  width: 100%;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 0px;
+  display: block;
+}
+.menu .MuiPaper-root .navLink .btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 body {
   color: #fff;
   background: linear-gradient(90deg, rgb(27, 18, 29) 0%, rgb(35, 35, 35) 50%, rgb(27, 18, 29) 100%);

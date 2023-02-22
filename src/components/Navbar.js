@@ -138,6 +138,7 @@ function Navbar() {
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>   
                         <Button
+                        className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -147,7 +148,8 @@ function Navbar() {
                 </div>
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
-                        <Button
+                        <Button 
+                        className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -158,6 +160,7 @@ function Navbar() {
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Button
+                        className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -168,6 +171,7 @@ function Navbar() {
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Button
+                        className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -178,6 +182,7 @@ function Navbar() {
                 <div className="navLink">
                     <MenuItem  onClick={handleCloseNavMenu}>
                         <Button
+                        className='btn-grad'
                         onClick={handleCloseNavMenu}
                         sx={{ my: 0, color: 'white', display: 'block' }}
                         >
@@ -185,7 +190,7 @@ function Navbar() {
                         </Button>
                     </MenuItem>
                 </div>  
-                
+
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
