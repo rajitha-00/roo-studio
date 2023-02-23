@@ -1,0 +1,15 @@
+.card{
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    .paper{
+        background: #fff;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        .oneBgImg{
+            position: relative;
+        }
+    }
+}

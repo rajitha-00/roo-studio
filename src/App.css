@@ -1,3 +1,19 @@
+.card {
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.card .paper {
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.card .paper .oneBgImg {
+  position: relative;
+  background-image: url(https://www.prabathkanishkaphotography.com/wp-content/uploads/2020/11/PRA05270.jpg);
+}
+
 .logo {
   color: #3b5998;
   height: 5rem;
@@ -42,7 +58,7 @@
 
 .navLink a {
   text-decoration: none;
-  color: #ff0057 !important;
+  color: #fff !important;
 }
 
 .menu {
