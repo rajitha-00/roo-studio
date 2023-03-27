@@ -35,7 +35,7 @@ function Navbar() {
       <Container maxWidth="xl">
         <Toolbar >
           {/* PC View */}
-          <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 2, display: {  xs: 'none',md: 'flex' } }}>
           <Typography
             variant="h3"
             noWrap
@@ -54,8 +54,8 @@ function Navbar() {
           >
             <Link to='/'> 
             <h2>
-                <span>R</span>OO
                 <span>S</span>TUDIO
+                <span>R</span>OO
             </h2>
             </Link>
           
@@ -208,8 +208,8 @@ function Navbar() {
 
               <Link to='/'> 
                 <h2>
-                    <span>R</span>OO
                     <span>S</span>TUDIO
+                    <span>R</span>OO
                 </h2>
               </Link>
             </div>
