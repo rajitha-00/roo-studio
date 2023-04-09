@@ -27,14 +27,7 @@
   height: 550px;
   margin-bottom: 30px;
   border-radius: 20px;
-  background: linear-gradient(145deg, #262323, #2d2a2a);
-  box-shadow: 31px 31px 61px #151414, -31px -31px 61px #3f3b3b;
-}
-.card:hover {
-  scale: 1.1;
-  transition: 0.3s ease-in-out;
-  background: linear-gradient(145deg, #5b5959, #4d4b4b);
-  box-shadow: 31px 31px 61px #2b2a2a, -31px -31px 61px #807d7d;
+  background: #000000;
 }
 .card .paper {
   background-repeat: no-repeat;
@@ -43,18 +36,17 @@
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  transition: 0.5s ease in;
   border-radius: 10px;
 }
 
 .logo {
-  color: #3b5998;
+  color: #fF0000;
   height: 5rem;
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   display: grid;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(147, 0, 0) 100%);
+  background: #fF0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,13 +59,13 @@
 }
 
 .logo2 {
-  color: #d7e4ff;
+  color: #ffffff;
   height: 5rem;
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   display: grid;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(147, 0, 0) 100%);
+  background: #fF0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -86,23 +78,23 @@
 }
 
 .navBg {
-  background: rgba(255, 255, 255, 0.1294117647) !important;
+  background: #000000 !important;
 }
 
 .navLink a {
   text-decoration: none;
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 .menu {
-  background: rgba(255, 255, 255, 0.1);
+  background: #000000;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
 }
 .menu .MuiPaper-root {
   width: 50%;
   height: 85%;
-  background: rgba(0, 0, 0, 0.6);
+  background: #000000;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
@@ -119,8 +111,8 @@
 }
 
 body {
-  color: #fff;
-  background: linear-gradient(90deg, rgb(57, 54, 58) 0%, rgb(52, 45, 45) 50%, rgb(41, 38, 42) 100%);
+  color: #ffffff;
+  background: #000000;
 }
 
 .heroContainer {

@@ -1,3 +1,5 @@
+@import './Theme.scss';
+
 .wrapper{
     display: flex;
     max-width: 1800px;
@@ -29,17 +31,17 @@
     height: 550px;
     margin-bottom: 30px;
     border-radius:20px;
-    background: linear-gradient(145deg, #262323, #2d2a2a);
-    box-shadow:  31px 31px 61px #151414,
-                 -31px -31px 61px #3f3b3b;
+    background: $darkBg;
+    // box-shadow:  31px 31px 61px #151414,
+    //              -31px -31px 61px #3f3b3b;
     
-    &:hover{
-        scale: 1.1;
-        transition: 0.3s ease-in-out;
-        // background: linear-gradient(145deg, #5b5959, #4d4b4b);
-        // box-shadow:  31px 31px 61px #2b2a2a,
-        //              -31px -31px 61px #807d7d;
-    }
+    // &:hover{
+    //     // scale: 1.1;
+    //     transition: 0.3s ease-in-out;
+    //     // background: linear-gradient(145deg, #5b5959, #4d4b4b);
+    //     // box-shadow:  31px 31px 61px #2b2a2a,
+    //     //              -31px -31px 61px #807d7d;
+    // }
     
     .paper{
         background-repeat: no-repeat;
@@ -48,7 +50,7 @@
         border-radius: 5px;
         width: 100%;
         height: 100%;
-        transition: 0.5s ease in;
+        // transition: 0.5s ease in;
         border-radius: 10px;
         
     }
