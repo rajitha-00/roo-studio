@@ -1,5 +1,6 @@
 @import './assets/scss/Home.scss';
 @import './assets/scss/Navbar.scss';
+@import './assets/scss/Footer.scss';
 
 body {
 
@@ -8,15 +9,25 @@ body {
    
 }
 .heroContainer{
-    margin-bottom: 150px;
+    // margin-bottom: 150px;
     position: relative;
+    min-height: 91vh;
     .heroBg{
-        width: 100%;
-        background-image: url('./assets/images/home/1.png');
+        width: 100%; 
         position: relative;
         background-size: cover;
-        height: 500px;
-        margin-bottom: 50px;
+        height: 100%;
+        overflow: hidden;
+
+        .video {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+          }
     }
 }
 .path {

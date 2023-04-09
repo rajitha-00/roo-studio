@@ -1,0 +1,22 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    color: $primaryColor;
+    margin-bottom: 20px;
+    font-family: $primaryFont;
+    .footerBody{
+        margin: auto;
+        text-align: center;
+        .iconContainer{
+            display: flex;
+            color: $primaryColor !important;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    }
+}

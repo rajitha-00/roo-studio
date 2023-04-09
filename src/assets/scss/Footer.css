@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+.footer .footerBody {
+  margin: auto;
+}
+.footer .footerBody .iconContainer {
+  display: flex;
+}/*# sourceMappingURL=Footer.css.map */

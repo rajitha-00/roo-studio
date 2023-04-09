@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero from '../components/products/Hero'
 
 const Products = () => {
   return (
     <>
       <div className="container">
-        <h1>Products</h1>
+        <Hero />
       </div>
     </>
   )

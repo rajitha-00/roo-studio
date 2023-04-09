@@ -7,6 +7,7 @@ import Gallery from './views/Gallery'
 import AboutUs from './views/AboutUs'
 import ContactUs from './views/ContactUs'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/aboutus' element = {<AboutUs/>}/>
         <Route path='/contactus' element = {<ContactUs/>}/>
       </Routes>
+      <Footer />
     </>
   );
 }
