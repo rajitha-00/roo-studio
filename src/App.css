@@ -6,6 +6,7 @@
   margin: auto;
   position: relative;
   margin-top: 10px;
+  margin-bottom: 80px;
 }
 .wrapper .innerWrapper {
   width: 100%;
@@ -22,21 +23,25 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  display: flex;
+  display: block;
   width: 400px;
   height: 550px;
   margin-bottom: 30px;
-  border-radius: 20px;
   background: #000000;
+}
+.card .cardTitle {
+  text-align: center;
+  color: #fF0000;
+  padding: 20px;
 }
 .card .paper {
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .logo {

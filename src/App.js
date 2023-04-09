@@ -6,6 +6,7 @@ import Products from './views/Products'
 import Gallery from './views/Gallery'
 import AboutUs from './views/AboutUs'
 import ContactUs from './views/ContactUs'
+import MoreProducts from './views/MoreProducts'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/gallery' element = {<Gallery/>}/>
         <Route path='/aboutus' element = {<AboutUs/>}/>
         <Route path='/contactus' element = {<ContactUs/>}/>
+        <Route path='/moreProducts' element = {<MoreProducts/>}/>
       </Routes>
       <Footer />
     </>
