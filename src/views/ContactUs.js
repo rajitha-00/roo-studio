@@ -1,10 +1,11 @@
 import React from 'react'
+import SectionContactus from '../components/contact/SectionContactus'
 
 const ContactUs = () => {
   return (
     <>
       <div className="container">
-        <h1>Contact Us</h1>
+        <SectionContactus/>
       </div>
     </>
   )
