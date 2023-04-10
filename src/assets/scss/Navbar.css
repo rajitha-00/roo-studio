@@ -1,11 +1,11 @@
 .logo {
-  color: #fF0000;
+  color: #ff0000;
   height: 5rem;
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   display: grid;
-  background: #fF0000;
+  background: #ff0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -24,7 +24,7 @@
   justify-content: start;
   align-items: center;
   display: grid;
-  background: #fF0000;
+  background: #ff0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

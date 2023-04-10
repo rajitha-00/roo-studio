@@ -6,7 +6,6 @@
   margin: auto;
   position: relative;
   margin-top: 10px;
-  margin-bottom: 80px;
 }
 .wrapper .innerWrapper {
   width: 100%;
@@ -31,7 +30,7 @@
 }
 .card .cardTitle {
   text-align: center;
-  color: #fF0000;
+  color: #ff0000;
   padding: 20px;
 }
 .card .paper {
@@ -44,14 +43,28 @@
   border-radius: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: 600;
+}
+
+.btnPrimary {
+  border: 1px solid #ff0000;
+  background: rgba(255, 0, 0, 0.1333333333);
+  color: #ff0000;
+  text-decoration: none;
+  margin-bottom: 150px;
+}
+
 .logo {
-  color: #fF0000;
+  color: #ff0000;
   height: 5rem;
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   display: grid;
-  background: #fF0000;
+  background: #ff0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -70,7 +83,7 @@
   justify-content: start;
   align-items: center;
   display: grid;
-  background: #fF0000;
+  background: #ff0000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -122,7 +135,7 @@
   align-items: center;
   margin: auto;
   display: flex;
-  color: #fF0000;
+  color: #ff0000;
   margin-bottom: 20px;
   font-family: trajan-regular;
 }
@@ -132,7 +145,7 @@
 }
 .footer .footerBody .iconContainer {
   display: flex;
-  color: #fF0000 !important;
+  color: #ff0000 !important;
   justify-content: center;
   align-items: center;
   margin: auto;

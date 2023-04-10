@@ -6,7 +6,7 @@ const Gallery = () => {
     <>
       <div className="container">
         <Hero />
-
+        
       </div>
     </>
   )
