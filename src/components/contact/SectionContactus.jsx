@@ -17,7 +17,8 @@ const SectionContactus = () => {
                     mb={5}
                   >
                       <Grid item lg={6} md={6} sm={12} xs={12}>
-                          <h1> contact </h1>
+                          <h1> Contact us  </h1>
+                          <h2> Name </h2>
                       </Grid>
                       
             </Grid >
