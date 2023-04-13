@@ -1,0 +1,19 @@
+@import './Theme.scss';
+
+.sendEmail{
+    
+    text-align: center;
+    color: $primaryColor;
+
+
+    .title{
+
+            text-align: center;
+            color: $primaryColor;
+            padding: 20px;
+    }
+    span{
+            text-align: center;
+            color: $lightBg;          
+    }
+}
