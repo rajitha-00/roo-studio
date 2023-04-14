@@ -1,0 +1,22 @@
+@import './Theme.scss';
+
+.galleryBTN{
+
+    Button{
+            border-color: #ff0000;
+            text-align: center;
+            color: $primaryColor;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #3e404d;
+            
+            
+    }
+
+    .nameG{
+
+            text-align: center;
+            color: $primaryColor;
+            padding: 20px;
+    }
+}
