@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../components/galerry/Hero'
-import Slide from '../components/galerry/Slide'
+import Hero from '../components/gallery/Hero'
+import Slide from '../components/gallery/Slide'
 
 const Gallery = () => {
   return (
