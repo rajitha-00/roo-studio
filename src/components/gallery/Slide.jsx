@@ -2,7 +2,8 @@ import { Box, Button, Grid } from '@mui/material'
 import '../../assets/scss/Slide.css'
 import React from 'react'
 import Collages from './Collages'
-
+import Weddings from './Weddings'
+import Family from './Family'
 const Slide = () => {
   return (
     <>
@@ -46,6 +47,10 @@ const Slide = () => {
       </div>
       
       <Collages />
+        
+      <Weddings />
+      
+      <Family />
       <br></br>
       <br></br>
       <br></br>
@@ -54,6 +59,8 @@ const Slide = () => {
       <br></br>
       <br></br>
           
+      
+      
     </>
   )
 }

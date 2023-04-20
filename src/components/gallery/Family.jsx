@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Link } from 'react-router-dom';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -9,11 +9,11 @@ import "swiper/css/pagination";
 
 import '../../assets/scss/Collages.css'
 
-import P1 from '../assets/images/gallery/1.jpg'
-import P2 from '../assets/images/gallery/2.jpg'
-import P3 from '../assets/images/gallery/3.jpg'
-import P4 from '../assets/images/gallery/4.jpg'
-import P5 from '../assets/images/gallery/5.jpg'
+import P1 from '../images/Family/FAMILY1.jpg'
+import P2 from '../images/Family/FAMILY2.jpg'
+import P3 from '../images/Family/FAMILY3.jpg'
+import P4 from '../images/Family/FAMILY4.jpg'
+
 
 
 
@@ -23,7 +23,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function App() {
   return (
     <>
-      <h2>Collage</h2>
+      <h2>Family</h2>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -52,13 +52,14 @@ export default function App() {
         <SwiperSlide>
           <img src={P4} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={P5} />
-        </SwiperSlide>
         
-      </Swiper>
+          </Swiper>
+          <br></br>
+          <h1>Capture your Family Moments !
+              <br></br>
+              there are,<br></br> Forever Memorable
+          </h1>
       <br></br>
-      <h1>Collect your memory like a 'collage' feel free to <br></br>Contact Studio roo </h1>
       <br></br>
       <br></br>
 

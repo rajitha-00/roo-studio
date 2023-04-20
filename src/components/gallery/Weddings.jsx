@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Link } from 'react-router-dom';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -9,11 +9,10 @@ import "swiper/css/pagination";
 
 import '../../assets/scss/Collages.css'
 
-import P1 from '../assets/images/gallery/1.jpg'
-import P2 from '../assets/images/gallery/2.jpg'
-import P3 from '../assets/images/gallery/3.jpg'
-import P4 from '../assets/images/gallery/4.jpg'
-import P5 from '../assets/images/gallery/5.jpg'
+import P1 from '../images/Wedding/W1.jpeg'
+import P2 from '../images/Wedding/W2.jpeg'
+import P3 from '../images/Wedding/W3.jpeg'
+
 
 
 
@@ -23,7 +22,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function App() {
   return (
     <>
-      <h2>Collage</h2>
+      <h2>Weddings</h2>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -49,16 +48,10 @@ export default function App() {
         <SwiperSlide>
           <img src={P3} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={P4} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={P5} />
-        </SwiperSlide>
         
-      </Swiper>
+          </Swiper>
+         <h1>That look on her face says, <br></br>"now i know exactly how Disney's Cinderella felt when she found her prince charming." </h1>
       <br></br>
-      <h1>Collect your memory like a 'collage' feel free to <br></br>Contact Studio roo </h1>
       <br></br>
       <br></br>
 
