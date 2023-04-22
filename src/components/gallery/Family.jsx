@@ -54,14 +54,14 @@ export default function App() {
         </SwiperSlide>
         
           </Swiper>
-          <br></br>
+          {/* <br></br>
           <h1>Capture your Family Moments !
               <br></br>
               there are,<br></br> Forever Memorable
           </h1>
       <br></br>
       <br></br>
-      <br></br>
+      <br></br> */}
 
       
     </>

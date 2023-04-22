@@ -22,7 +22,7 @@ function App() {
         <Route path='/contactus' element = {<ContactUs/>}/>
         <Route path='/moreProducts' element = {<MoreProducts/>}/>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

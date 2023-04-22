@@ -39,21 +39,21 @@ export default function App() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={P1} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={P2} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={P3} />
-        </SwiperSlide>
+          <SwiperSlide>
+            <img src={P1} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={P2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={P3} />
+          </SwiperSlide>
         
-          </Swiper>
-         <h1>That look on her face says, <br></br>"now i know exactly how Disney's Cinderella felt when she found her prince charming." </h1>
+      </Swiper>
+         {/* <h1>That look on her face says, <br></br>"now i know exactly how Disney's Cinderella felt when she found her prince charming." </h1>
       <br></br>
       <br></br>
-      <br></br>
+      <br></br> */}
 
       
     </>

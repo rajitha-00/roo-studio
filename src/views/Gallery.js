@@ -1,13 +1,13 @@
 import React from 'react'
 import Hero from '../components/gallery/Hero'
-import Slide from '../components/gallery/Slide'
+import SectionGallery from '../components/gallery/SectionGallery'
 
 const Gallery = () => {
   return (
     <>
       <div className="container">
         <Hero />
-        < Slide />
+        < SectionGallery />
         
       </div>
     </>
