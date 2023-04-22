@@ -1,4 +1,4 @@
-import { Box, Button, Grid, TextField } from '@mui/material'
+import { Box, Button, FormControl, Grid, TextField } from '@mui/material'
 import React from 'react'
 import '../../assets/scss/Contact.css'
 import SendIcon from '@mui/icons-material/Send';
@@ -10,58 +10,74 @@ const SectionContactus = () => {
         <div className="innerWrapper-contact">
           
           
-                  <Grid
-                    container 
-                    direction="row"
-                    justifyContent="space-around"
-                    alignItems="center"
-                    spacing={1} 
-                    rowSpacing={4} 
-                    mt={5}
-                    mb={5}
-                  >
-            <Grid item lg={6} md={6} sm={12} xs={12}>
-              <div className='sendEmail'>
-              <div className='title'>
-                <h2> Contact <span>Us</span>  </h2>
-              </div>
-        <Box
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              '& .MuiTextField-root': { width: '25ch' },
-            }}
+          <Grid
+            container 
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+            spacing={1} 
+            rowSpacing={4} 
+            mt={5}
+            mb={5}
           >
-      
-                  <TextField label={'Your Name'} id="margin-none" className='textfield' />
-                  
-      
-                  <TextField label={'Email'} id="margin-dense" margin="dense" />
-                  
-      
-                  <TextField label={'Write a subject'} id="margin-normal" margin="normal" />
+            <Grid item lg={8} md={8} sm={12} xs={12}>
+              <div className='sendEmail'>
+                <div className='title'>
+                  <h2> Contact <span>Us</span>  </h2>
+                </div>
+                <Box
+                
+                  >
+                  <FormControl fullWidth >
+                    <div className="textBoxContainer">
 
-                  <TextField
-          id="outlined-multiline-static"
-          label="Message"
-          multiline
-          rows={4}
-          defaultValue="Default Value"
-        />
-<br></br>
-                  <Button variant="contained" endIcon={<SendIcon />}>
-  Send
-</Button>
-                  
+                      <TextField 
+                      className='textBox' 
+                      placeholder='Name'
+                      variant="outlined" />
+                    </div>    
+                    <div className="textBoxContainer">
+                      <TextField
+                      className='textBox'
+                      type='email'
+                      placeholder='Email'    
+                      variant="outlined" />
+                    </div>      
+                    <div className="textBoxContainer">
+                      <TextField 
+                      className='textBox'
+                      placeholder='Message Title'    
+                      variant="outlined" />
+                    </div>
+                    <div className="textBoxContainer">
+                      <TextField
+                        className='textBox'
+                        placeholder='Type Your Message Here...'    
+                        variant="outlined" 
+                        multiline
+                        rows={4}
+                      />
+                    </div>
+                    <div className="btnBoxContainer">
+                      <div>
+
+                          <Button 
+                          className='SendButton'
+                          variant="contained" endIcon={<SendIcon />}>
+                            Send
+                          </Button>
+                      </div>
+                    </div>
+                  </FormControl>
 
                 </Box>
-                </div>
-                      </Grid>
+              </div>
+            </Grid>
                       
-            </Grid >
+          </Grid >
 
         </div>
-          </div>
+      </div>
           
     </>
   )

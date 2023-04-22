@@ -1,13 +1,53 @@
 .sendEmail {
-  text-align: center;
   color: #ff0000;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: auto;
 }
 .sendEmail .title {
-  text-align: center;
+  width: 100%;
+  text-align: start;
   color: #ff0000;
-  padding: 20px;
+  padding: 10px 0;
 }
 .sendEmail span {
-  text-align: center;
   color: #ffffff;
+}
+.sendEmail .textBoxContainer {
+  position: relative;
+  padding: 10px 0px;
+  width: 100%;
+}
+.sendEmail .textBoxContainer .textBox .MuiInputBase-root {
+  min-width: 300px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.sendEmail .textBoxContainer .textBox .MuiInputBase-root:focus {
+  border: 1px solid #ffffff;
+}
+.sendEmail .textBoxContainer .textBox .MuiInputBase-multiline {
+  min-width: 300px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.sendEmail .textBoxContainer .textBox .MuiInputBase-multiline:active {
+  border: 1px solid #ffffff;
+}
+.sendEmail .btnBoxContainer {
+  position: relative;
+  padding: 10px 0;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.sendEmail .btnBoxContainer div .SendButton {
+  background: #ff0000;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  min-width: 300px;
 }/*# sourceMappingURL=Contact.css.map */

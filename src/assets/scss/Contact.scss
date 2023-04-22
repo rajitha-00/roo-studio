@@ -2,18 +2,63 @@
 
 .sendEmail{
     
-    text-align: center;
-    color: $primaryColor;
 
-
-    .title{
-
-            text-align: center;
-            color: $primaryColor;
-            padding: 20px;
-    }
-    span{
-            text-align: center;
-            color: $lightBg;          
-    }
+        color: $primaryColor;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        margin: auto;
+        .title{
+                width: 100%;
+                text-align: start;
+                color: $primaryColor;
+                padding: 10px 0;
+        }
+        span{
+                color: $lightBg;          
+        }
+        .textBoxContainer{
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+                .textBox{
+                        .MuiInputBase-root{
+                                min-width: 300px;
+                                border: 1px solid $lightBg;
+                                color: $lightBg;
+                                &:focus{
+                                        border: 1px solid $lightBg;
+                                }
+                        }
+                        .MuiInputBase-multiline{
+                                min-width: 300px;
+                                border: 1px solid $lightBg;
+                                color: $lightBg;
+                                &:active{
+                                        border: 1px solid $lightBg;
+                                }
+                        }
+                }
+        }
+        .btnBoxContainer{
+                position: relative;
+                padding: 10px 0;
+                width: 100%;
+                align-items: center;
+                margin: auto;
+                justify-content: center;
+                div{
+                    
+                        .SendButton{
+                                background: $primaryColor;
+                                width: 100%;
+                                margin: auto;
+                                position: relative;
+                              
+                                min-width: 300px;
+                        }
+                }
+        }
+   
 }
