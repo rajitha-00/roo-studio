@@ -24,7 +24,7 @@ import { Grid, Typography } from "@mui/material";
 export default function App() {
   return (
     <>
-      <div className="background">
+      <div className="background-frame">
     <Grid container
      justifyContent="center"
      alignItems="center"
@@ -59,27 +59,89 @@ export default function App() {
           
           <SwiperSlide>
                   <img src={P2} />
+                  <h3 className="fB">Hanging wall photo frames</h3>
+                  <h6 className="fB2">Choose your frame size
+                    <br></br>20 * 24
+                    <br></br>16 * 20
+                    <br></br>12 * 15
+                    <br></br>11 * 14
+                    
+                  </h6>
+                  <h6 className="fB3">Choose Your Colour </h6>
+                  <div className="box-w"></div>
+                  <div className="box-B"></div>
+                  <div className="box-Br"></div>
+                  <div className="box-text">Imagine Your Need</div>
+                  <div className="box-contact">Contact</div>
                   
-          </SwiperSlide>
-          <SwiperSlide>
+                  
+                </SwiperSlide>
+                
+
+
+
+                <SwiperSlide>
+                  
                   <img src={P1} />
-                  <h1>hanging wall photo frames</h1>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={P3} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={P4} />
-          </SwiperSlide>
+                  <h3 className="fB">Hanging wall photo frames</h3>
+                  <h6 className="fB2">Choose your frame size
+                    <br></br>10 * 12
+                    <br></br>8 * 10
+                    <br></br>5 * 10
+                    <br></br>8 * 8
+                  </h6>
+                  <h6 className="fB3">Choose Your Colour </h6>
+                  <div className="box-w"></div>
+                  <div className="box-B"></div>
+                  <div className="box-Br"></div>
+                  <div className="box-text">Imagine Your Need</div>
+                  <div className="box-contact">Contact</div>
+
+                </SwiperSlide>
+                
+                <SwiperSlide>
+                  
+                  <img src={P3} />
+                  
+                  <h3 className="fB">Hanging wall photo frames</h3>
+                  <h6 className="fB2">Choose your frame size
+                    <br></br>10 * 12
+                    <br></br>8 * 10
+                    <br></br>5 * 10
+                    <br></br>8 * 8
+                  </h6>
+                  <h6 className="fB3">Choose Your Colour </h6>
+                  <div className="box-w"></div>
+                  <div className="box-B"></div>
+                  <div className="box-Br"></div>
+                  <div className="box-text">Imagine Your Need</div>
+                  <div className="box-contact">Contact</div>
+                  
+                </SwiperSlide>
+                
+                <SwiperSlide>
+                  
+                  <img src={P4} />
+                  <h3 className="fB">Hanging wall photo frames</h3>
+                  <h6 className="fB2">Choose your frame size
+                    <br></br>10 * 12
+                    <br></br>8 * 10
+                    <br></br>5 * 10
+                    <br></br>8 * 8
+                  </h6>
+                  <h6 className="fB3">Choose Your Colour </h6>
+                  <div className="box-w"></div>
+                  <div className="box-B"></div>
+                  <div className="box-Br"></div>
+                  <div className="box-text">Imagine Your Need</div>
+                  <div className="box-contact">Contact</div>
+                  
+                </SwiperSlide>
+                
           
           
         </Swiper>
       </div>  
-      </Grid>
-      <Grid item lg={8} md={8} sm={10} xs={6}>
-        <div className="swiperFooter">
-          <Typography>Collect your memory like a 'collage' feel free to Contact Studio roo </Typography>
-        </div>
       </Grid>
         </Grid>
         </div>
