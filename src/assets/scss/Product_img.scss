@@ -1,0 +1,37 @@
+@import './Theme.scss';
+
+
+.background {
+    background-color: #f0ebeb;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+}
+
+.swiperFooter {
+    color: black;
+
+}
+
+.body {
+     color: black;
+       
+}
