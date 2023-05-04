@@ -25,6 +25,7 @@ import { Grid, Typography } from "@mui/material";
 export default function App() {
   return (
     <>
+      <div className="background">
     <Grid container
      justifyContent="center"
      alignItems="center"
@@ -42,15 +43,15 @@ export default function App() {
       
         <Swiper
           effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
           }}
           pagination={false}
           modules={[EffectCoverflow, Pagination]}
@@ -80,7 +81,8 @@ export default function App() {
           <Typography>Collect your memory like a 'collage' feel free to Contact Studio roo </Typography>
         </div>
       </Grid>
-    </Grid>
+        </Grid>
+        </div>
 
       
     </>

@@ -23,6 +23,8 @@ import { Grid, Typography } from "@mui/material";
 export default function App() {
   return (
     <>
+      
+      <div className="background">
       <Grid container
      justifyContent="center"
      alignItems="center"
@@ -74,7 +76,8 @@ export default function App() {
          when she found her prince charming."</Typography>
         </div>
       </Grid>
-       </Grid>  
+        </Grid>
+      </div>
 
       
     </>
