@@ -16,7 +16,7 @@ const Card = () => {
     <>
     <div className="wrapper">
 
-      <div className="innerWrapper">
+      <div className="innerWrapper-home">
 
         <Grid  
             container 
@@ -33,30 +33,22 @@ const Card = () => {
                 <div className="cardTitle">
                   <h2>Photo Frames</h2>
                 </div>
-                <motion.div
-                className="paper" 
-                initial={{ scale: 0 }}
-                animate={{ scale: 1.1 }}
-                transition={{  delay: 0.3,
-                  x: { duration: 1 },
-                  default: { ease: "linear" } }}
-                  style={{ backgroundImage:`url(${P1})` }}/>
-                
+
+                <div className='photoFrames'>
+                  </div>
               </div>
+                
+              
             </Grid>
             <Grid item lg={4} md={6} sm={12} xs={12}>
               <div className="card">
                 <div className="cardTitle">
                   <h2>Wedding Photography</h2>
                 </div>
-                <motion.div 
-                className="paper"
-                initial={{ scale: 0 }}
-                animate={{ scale: 1.1 }}
-                transition={{  delay: 0.5,
-                  x: { duration: 1 },
-                  default: { ease: "linear" } }}
-                  style={{ backgroundImage:`url(${P2})` }}/>
+
+                <div className='WeddingPhoto'>
+                  </div>
+                
                   
               </div>
             </Grid>
@@ -65,31 +57,20 @@ const Card = () => {
                 <div className="cardTitle">
                   <h2>Cake Design</h2>
                 </div>
-                <motion.div 
-                className="paper" 
-                initial={{ scale: 0 }}
-                animate={{ scale: 1.1 }}
-                transition={{  delay: 0.7,
-                  x: { duration: 1 },
-                  default: { ease: "linear" } }}
-                  style={{ backgroundImage:`url(${P3})` }}/>
+                <div className='CakePhoto'>
+                  </div>
               
               </div>
             </Grid>
+
+
             <Grid item lg={4} md={6} sm={12} xs={12}>
               <div className="card">
                 <div className="cardTitle">
                   <h2>Mugs Printing</h2>
                 </div>
-                <motion.div 
-                className="paper"
-                initial={{ scale: 0 }}
-                animate={{ scale: 1.1 }}
-                transition={{  delay: 0.9,
-                  x: { duration: 1 },
-                  default: { ease: "linear" } }}
-                  style={{ backgroundImage:`url(${P4})` }}
-                />
+                <div className='MugsPhoto'>
+                  </div>
              
               </div>
             </Grid>

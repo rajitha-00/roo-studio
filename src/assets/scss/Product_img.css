@@ -1,0 +1,112 @@
+.background-frame {
+  background-color: #ffffff;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.swiperFooter {
+  color: black;
+}
+
+.body {
+  color: black;
+}
+
+.fB {
+  color: black;
+}
+
+.fB2 {
+  color: rgba(0, 0, 0, 0.613);
+}
+
+.fB3 {
+  position: absolute;
+  top: 505px;
+  left: 190px;
+  color: rgb(0, 0, 0);
+}
+
+.box-w {
+  position: absolute;
+  top: 550px;
+  left: 190px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8784313725);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box-B {
+  position: absolute;
+  top: 550px;
+  left: 220px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: #000000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box-Br {
+  position: absolute;
+  top: 550px;
+  left: 250px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: #5d3114;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box-text {
+  position: absolute;
+  top: 580px;
+  left: 170px;
+  width: 120px;
+  height: 20px;
+  border-radius: 30px;
+  border: 2px solid rgb(252, 0, 0);
+  background: #f7afa5;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.box-contact {
+  position: absolute;
+  top: 400px;
+  left: 190px;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid rgb(198, 0, 0);
+  background: rgba(249, 29, 0, 0.137254902);
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #ff0000;
+  font-family: Arial Black;
+}/*# sourceMappingURL=Product_img.css.map */

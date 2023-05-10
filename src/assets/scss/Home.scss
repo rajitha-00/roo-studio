@@ -47,19 +47,56 @@
         color: $primaryColor;
         padding: 20px;
     }
+
+        .photoFrames {
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            background-image: url(../images/home/2.jpg);
+            background-size: contain;
     
-    .paper{
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-        border-radius: 5px;
-        width: 100%;
-        height: 100%;
-        // transition: 0.5s ease in;
-        // border-radius: 10px;
-        border-radius:20px;
+        }
+
+                .WeddingPhoto {
+                    width: 400px;
+                    height: 440px;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    background-image: url(../images/home/3.jpg);
+                    background-size: cover;
+                }
+
+                                .CakePhoto {
+                                    width: 380px;
+                                    height: 440px;
+                                    margin-bottom: 30px;
+                                    border-radius: 10px;
+                                    background-image: url(../images/home/4.jpeg);
+                                    background-size: cover;
+                                }
+                                                                .MugsPhoto {
+                                                                    width: 400px;
+                                                                    height: 420px;
+                                                                    margin-bottom: 30px;
+                                                                    border-radius: 5px;
+                                                                    background-image: url(../images/home/5.jpg);
+                                                                    background-size: cover;
+                                                                }
+
+    
+    // .paper{
+    //     background-repeat: no-repeat;
+    //     background-position: center center;
+    //     background-size: contain;
+    //     border-radius: 5px;
+    //     width: 100%;
+    //     height: 100%;
+    //     // transition: 0.5s ease in;
+    //     // border-radius: 10px;
+    //     border-radius:20px;
         
-    }
+    // }
 }
 a{
     text-decoration: none;

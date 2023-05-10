@@ -18,11 +18,28 @@ import P3 from '../images/Wedding/W3.jpeg'
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
+import { Grid, Typography } from "@mui/material";
 
 export default function App() {
   return (
     <>
-      <h2>Weddings</h2>
+      
+      <div className="background">
+      <Grid container
+     justifyContent="center"
+     alignItems="center"
+     spacing={1} 
+    >
+      <Grid item lg={8} md={8} sm={10} xs={12}>
+
+        <div className="swiperHeader">
+          <h1>Weddings</h1>
+
+        </div>
+      </Grid>
+      
+      <Grid item lg={8} md={8} sm={10} xs={12}>
+      <div className="containerSwip">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -49,11 +66,18 @@ export default function App() {
             <img src={P3} />
           </SwiperSlide>
         
-      </Swiper>
-         {/* <h1>That look on her face says, <br></br>"now i know exactly how Disney's Cinderella felt when she found her prince charming." </h1>
-      <br></br>
-      <br></br>
-      <br></br> */}
+          </Swiper>
+          </div>  
+      </Grid>
+
+      <Grid item lg={8} md={8} sm={10} xs={6}>
+        <div className="swiperFooter">
+          <Typography>That look on her face says,"now i know exactly how Disney's Cinderella felt 
+         when she found her prince charming."</Typography>
+        </div>
+      </Grid>
+        </Grid>
+      </div>
 
       
     </>

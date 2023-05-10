@@ -1,0 +1,85 @@
+.background-frame {
+    background-color: #ffffff;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: auto;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.swiperFooter {
+    color: black;
+
+}
+
+.memory{
+    color: black;
+    font-family: Actor  ;
+    font-size: 20px;
+}
+.color{
+    font-family: Actor;
+    font-size: 10px;
+    color: rgb(47, 47, 47);
+}
+.mugColor{
+        position: relative;
+        left: 0px;
+}
+
+.mugColor-w{
+        position: relative;
+        left: 90px;
+        top:-88px;
+        
+}
+.color-White{
+    font-family: Actor;
+        font-size: 10px;
+        color: rgb(47, 47, 47);
+        position: relative;
+        left: 90px;
+        top: -90px;
+}
+
+.magic-mug{
+    position: relative;
+        left: 180px;
+        top: -180px;
+}
+.color-magic{
+    font-family: Actor;
+        font-size: 10px;
+        color: rgb(47, 47, 47);
+        position: relative;
+        left: 180px;
+        top: -179.8px;
+}
+.cake{
+    
+    font-family: Actor;
+        font-size: 15px;
+        color: rgb(47, 47, 47);
+        .you{
+            font-family: Actor;
+                font-size: 15px;
+                color: rgb(255, 0, 0);
+        }
+}

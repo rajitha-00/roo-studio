@@ -19,11 +19,28 @@ import P4 from '../images/Family/FAMILY4.jpg'
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
+import { Grid, Typography } from "@mui/material";
 
 export default function App() {
   return (
     <>
-      <h2>Family</h2>
+      <div className="background">
+      <Grid container
+     justifyContent="center"
+     alignItems="center"
+     spacing={1} 
+    >
+      
+      <Grid item lg={8} md={8} sm={10} xs={12}>
+
+        <div className="swiperHeader">
+          <h1>Family</h1>
+
+        </div>
+      </Grid>
+
+      <Grid item lg={8} md={8} sm={10} xs={12}>
+      <div className="containerSwip">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -53,16 +70,18 @@ export default function App() {
           <img src={P4} />
         </SwiperSlide>
         
-          </Swiper>
-          {/* <br></br>
-          <h1>Capture your Family Moments !
+      </Swiper>
+      </div>  
+      </Grid>
+      <Grid item lg={8} md={8} sm={10} xs={6}>
+        <div className="swiperFooter">
+          <Typography>Capture your Family Moments !
               <br></br>
-              there are,<br></br> Forever Memorable
-          </h1>
-      <br></br>
-      <br></br>
-      <br></br> */}
-
+              there are,<br></br>Forever Memorable</Typography>
+        </div>
+      </Grid>
+        </Grid>
+        </div>
       
     </>
   );
